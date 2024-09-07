@@ -1,19 +1,19 @@
-class Super
+class Superb
 {
-	Super(int a,int b)
+	Superb(int a,int b)
 	{
 		System.out.println("Super class constructor,a="+a+",b="+b);
 	}
 }
-class Sub extends Super
+class Subsidy extends Superb
 {
-	Sub(int a,int b)
+	Subsidy(int a,int b)
 	{
 		super(a,b);
 		System.out.println("Sub class default constructor");
 	}
 	 public static void main(String[] args)
 	{
-		new Sub(10,20);
+		new Subsidy(10,20);
 	}
 }
